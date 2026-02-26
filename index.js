@@ -10,6 +10,10 @@ app.get('/get', (req, res) => {
   res.json({ hello: 'world' });
 });
 
+app.get('/get', (req, res) => {
+  res.json({ message: 'how are you' });
+});
+
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
