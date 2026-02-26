@@ -1,1 +1,3 @@
-Setup a basic express server and send the response server running in / route
+modify the existing index.js file and make a /get endpoint and return a json with hello in it
+
+CRITICAL DOCKER REQUIREMENT: If you create a web server, it MUST listen on port 3000 and explicitly bind to '0.0.0.0'. Do not bind to 'localhost' or '127.0.0.1' as it will break the container's port mapping.
