@@ -1,1 +1,1 @@
-modify the existing index.js file and make a /get endpoint and return a json with hello in it
+modify the existing index.js file and make another /get endpoint and return a json with how are you in it
