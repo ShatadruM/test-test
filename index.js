@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Server running');
 });
 
-app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+app.get('/get', (req, res) => {
+  res.json({ message: 'hello' });
+});
+
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server listening at http://0.0.0.0:${port}`);
 });
